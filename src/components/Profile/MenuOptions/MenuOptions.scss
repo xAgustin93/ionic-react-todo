@@ -1,0 +1,27 @@
+.menu-options-container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  margin: 30px 10px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+
+    > div {
+      display: flex;
+      align-items: center;
+
+      ion-icon {
+        font-size: 20px;
+        background: #f3f3f3;
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
